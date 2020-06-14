@@ -35,7 +35,6 @@ function multiply(a, b) { //eslint-disable-line
   var mul=a*b;   
    var result=[mul,'The product of '+a+ ' and '+b+' is ' +mul +'.'];    
   console.log(result);   
-  
   return result;
 }
 
