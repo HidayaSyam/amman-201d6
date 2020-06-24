@@ -1,1 +1,77 @@
 /* TODO: Make it awesome */
+body header{
+    width: 100%;
+    height: 100px;
+    color: rgb(219, 219, 219);
+}
+body header h1{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    margin-left: 20px;
+    color: darkslateblue;
+    margin-top: 10px;
+}
+header nav{
+    width: 100%;
+    color: rgba(219, 219, 219, 0.411);
+}
+header nav ul li {
+    display: inline-block;
+
+    margin-left: 30px;
+    font-size: 32px;
+
+}
+
+.card header{
+background-color: white;
+height: 100px;
+width: 100%;
+}
+
+.copy ol {
+
+   
+    background-color: white;
+}
+.copy ol li {
+    font-size: 30px;
+    color: teal;
+    padding-left: 10px;
+
+}
+legend{
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+span{
+    padding-left: 10px;
+    font-size: 28px;
+}
+.card table{
+    margin-top: 15px;
+    margin-left: 30%;
+}
+
+.card table thead tr th{
+   padding:30px;
+    color: slateblue;
+    font-size: 30px;
+}
+
+#itemCount{
+
+    color: tomato;
+}
+#cartContents{
+    margin-top: 20px;
+    font-size: 28px;
+    color: royalblue;
+
+}
+
+thead , tbody ,tfoot ,tr ,td{
+    border: 1px solid black;
+}
