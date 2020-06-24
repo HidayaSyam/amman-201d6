@@ -36,7 +36,7 @@ function handleSubmit(event) {
   updateCartPreview();
 
 }
-var counter=0;
+
 // TODO: Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
   // TODO: suss out the item picked from the select list
