@@ -1,8 +1,13 @@
 /* TODO: Make it awesome */
-body header{
+body{
+    margin-top: 0px;
+}
+header{
+    padding-top: 10px ;
     width: 100%;
     height: 100px;
-    color: rgb(219, 219, 219);
+    color: rgb(192, 45, 45);
+    background-color: rgb(243, 241, 241);
 }
 body header h1{
 
@@ -10,7 +15,9 @@ body header h1{
     font-size: 36px;
     margin-left: 20px;
     color: darkslateblue;
-    margin-top: 10px;
+    margin-top: 15px;
+    
+   
 }
 header nav{
     width: 100%;
@@ -32,33 +39,54 @@ width: 100%;
 
 .copy ol {
 
-   
-    background-color: white;
+    border:1px gray solid ;
+    border-radius: 25px;
+    background-color: rgba(26, 24, 24, 0.075);
 }
 .copy ol li {
-    font-size: 30px;
-    color: teal;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
     padding-left: 10px;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 legend{
     font-size: 28px;
     padding-left: 10px;
-}
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
 
+}
+#items{
+    width: 250px;
+    height: 40px;
+    margin-left: 10px;
+}
+#quantity{
+    width: 250px;
+    height: 40px;
+    margin-left: 10px;
+}
 span{
     padding-left: 10px;
     font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .card table{
     margin-top: 15px;
     margin-left: 30%;
+    
 }
-
+#cart thead tr{
+    border-radius: 50px;
+    background-color:rgba(240, 255, 240, 0.445);
+}
 .card table thead tr th{
    padding:30px;
     color: slateblue;
     font-size: 30px;
+    background-color: lavender;
 }
 
 #itemCount{
@@ -74,4 +102,18 @@ span{
 
 thead , tbody ,tfoot ,tr ,td{
     border: 1px solid black;
+}
+
+footer{
+    margin-top: 330px;
+    
+    background-color:  rgb(243, 241, 241);
+    width: 100%;
+    height: 120px;
+}
+footer p{
+    margin-left: 50%;
+    padding-top: 15px;
+    color: darkslateblue;
+
 }
